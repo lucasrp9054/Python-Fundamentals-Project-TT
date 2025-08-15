@@ -1,27 +1,40 @@
-# Project 1: Python Fundamentals
+# Project Sprint 1: Python Fundamentals
 
 ## Overview
 
-This project represents the first practical application of fundamental Python concepts, serving as a foundation for more complex data analysis in the following sprints. The main focus was on manipulating different data types, using control structures, and implementing programming logic to solve basic problems.
+This project marks the first practical application of fundamental Python programming concepts, laying the groundwork for more advanced data analyses in future sprints. The main objective was to assess and clean a sample of customer data from an e-commerce company, utilizing skills acquired throughout Sprint 1.
 
 ## Skills and Tools Applied
 
-In this project, the following essential Python skills were practiced:
+The following essential Python skills were practiced, aligned with the course modules:
 
-- **Data Types:** Manipulation of numeric types (`int`, `float`), logical (`bool`), text (`string`), and collections (`list`).
-- **Type Conversion:** Using functions like `int()`, `str()`, and `float()` to convert data between different types.
-- **String Handling:** 
-    - Formatting with *f-strings*
-    - Changing case with `.upper()` and `.lower()`
-    - Removing spaces with `.strip()`
-    - Replacing characters with `.replace()`
-- **Data Structures:** Using lists to store and access collections of values through indexing and slicing.
-- **Control Logic:**
-    - Implementing `for` loops to iterate over list elements.
-    - Using `while` loops to execute code blocks until a condition is met.
-    - Creating branches in the code with conditional statements `if`, `elif`, and `else`.
-- **Error Handling:** Implementing `try-except` blocks to handle possible runtime errors and prevent the program from crashing.
+### Module 02: Variables, Data Types, and Arithmetic Operations
+
+- Manipulated numeric (`int`, `float`), logical (`bool`), and text (`string`) data types.
+- Converted data types (e.g., transformed age from `float` to `int`).
+- Used arithmetic operators to calculate metrics such as total spending.
+
+### Module 03: Strings
+
+- Cleaned textual data using `.strip()` and `.replace()`.
+- Split strings with `.split()` to separate first and last names.
+- Formatted strings with f-strings for dynamic user summaries.
+
+### Module 04: Lists
+
+- Stored and accessed collections of values (e.g., customers' favorite categories and expenses) using lists.
+- Aggregated data with `sum()`, `min()`, and `max()`.
+
+### Module 05: Loops
+
+- Used `for` loops to iterate over lists and apply transformations (e.g., converting categories to lowercase).
+- Implemented `while` loops to simulate processes until a condition was met (e.g., calculating customer loyalty).
+
+### Module 06: Conditional Statements
+
+- Applied conditional logic with `if` statements to filter and process data based on criteria (e.g., users under 30 or with high spending).
+- Used `try-except` blocks to safely handle data conversion errors.
 
 ## Conclusion
 
-This project was a fundamental step in solidifying knowledge of Python syntax and basic structures, laying the groundwork for data manipulation and analysis with specialized libraries in future projects.
+This project was a key step in solidifying knowledge of Python's basic syntax and structures. It demonstrated the ability to identify common data quality issues and apply programming logic to clean and prepare data, setting the stage for more complex analysis in future projects.
